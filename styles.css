@@ -3,11 +3,10 @@ body {
   background: white;
   text-align: center;
   font-family: Rubik;
-  /* display: flex; */
 }
 
 /* Navigation Bar */
-/* .header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +37,7 @@ body {
 
 .main-nav-link:hover {
   text-decoration: underline;
-} */
+}
 
 /* Block Level */
 .block-header {
