@@ -1,5 +1,92 @@
 body {
   margin: 0;
-  background: pink;
+  background: white;
   text-align: center;
+  font-family: Rubik;
+  /* display: flex; */
+}
+
+/* Navigation Bar */
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d1f876;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+  font-size: 25px;
+}
+.logo {
+  height: 6.2rem;
+  padding-left: 15px;
+}
+
+.navigation-bar-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5.8rem;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.main-nav-link:hover {
+  text-decoration: underline;
+} */
+
+/* Block Level */
+.block-header {
+  font-size: 50px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 200px;
+}
+
+/* Block Level - Images */
+
+.block-img {
+  /* width: 300px; */
+  padding: 10px;
+}
+
+.block-icon {
+  width: 100px;
+  padding: 10px;
+}
+
+.block0 {
+  background-color: #d1f876;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.block1 {
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.text {
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.textlink {
+  /* text-decoration: none; */
+  font-weight: 500;
+  color: gray;
+  font-size: 40px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.8rem;
 }
