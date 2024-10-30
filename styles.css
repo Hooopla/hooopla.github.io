@@ -19,7 +19,9 @@ body {
 }
 .logo {
   height: 6.2rem;
-  padding-left: 15px;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-right: 50px;
 }
 
 .navigation-bar-list {
