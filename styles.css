@@ -111,11 +111,6 @@ body {
   text-decoration: underline;
 }
 
-.scrollback {
-  font-size: 20px;
-}
-
-.last {
-  margin-bottom: -200px;
-  padding-bottom: -200px;
+#scrollToTop {
+  cursor: pointer;
 }

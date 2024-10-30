@@ -8,7 +8,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
     <link rel="icon" href="imgs/Avatar.png" type="image/x-icon" />
+
     <title>Hooop's Logs</title>
   </head>
   <body>
@@ -187,7 +189,7 @@
             title="View my GitHub Profile"
             target="_blank"
             ><img
-              src="imgs/GitHub.png"
+              src="imgs/Github.png"
               clas="block-img"
               alt="Logo of Github"
               width="200px"
@@ -197,7 +199,7 @@
             title="View my Youtube Channel"
             target="_blank"
             ><img
-              src="imgs/YouTube.png"
+              src="imgs/Youtube.png"
               class="block-img"
               alt="Logo of YouTube"
               width="190px"
@@ -232,14 +234,14 @@
         >
       </div>
       <div class="block-header last">
-        <a href="index.html">
-          <img
-            src="/imgs/scrollbackup.png"
-            width="100px"
-            alt="Image of an arrow pointing upwards"
-        /></a>
-
-        <p class="scrollback">Go back to the top!</p>
+        <img
+          src="/imgs/scrollbackup.png"
+          width="100px"
+          alt="Image of an arrow pointing upwards"
+          id="scrollToTop"
+          onclick="scrollToTop()"
+        />
+        <p class="alt-text">Go back to the top!</p>
       </div>
     </main>
   </body>
