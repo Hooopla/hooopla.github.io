@@ -104,9 +104,18 @@ body {
 .contact-me {
   text-decoration: none;
   font-weight: 500;
-  color: black;
+  color: gray;
 }
 
 .contact-me:hover {
   text-decoration: underline;
+}
+
+.scrollback {
+  font-size: 20px;
+}
+
+.last {
+  margin-bottom: -200px;
+  padding-bottom: -200px;
 }
