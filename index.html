@@ -8,16 +8,22 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
     <link rel="icon" href="imgs/Avatar.png" type="image/x-icon" />
+
     <title>Hooop's Logs</title>
   </head>
   <body>
     <header class="header">
       <!-- <a href="#"> -->
-      <img class="logo" alt="Hooopla logo" src="imgs/Log.png" />
+      <img
+        class="logo"
+        alt="An image of the Minecraft wood block."
+        src="imgs/Log.png"
+      />
       <!-- </a> -->
       <h1>Hooop's Logs</h1>
-      <nav class="navigation-bar">
+      <nav class="navigation-bar" id="home">
         <ul class="navigation-bar-list">
           <li>
             <a class="main-nav-link" href="#introduction">Introduction</a>
@@ -92,7 +98,10 @@
           class="block-img"
         />
         <h2>Matrices Study</h2>
-        <a class="textlink" href="https://github.com/Hooopla/Matrix_Study"
+        <a
+          class="textlink"
+          href="https://github.com/Hooopla/Matrix_Study"
+          target="_blank"
           >Checkout the project</a
         >
         <p class="text">
@@ -107,6 +116,7 @@
         <a
           class="textlink"
           href="https://github.com/Hooopla/University-Course-Data-Base-Analyzer"
+          target="_blank"
           >Checkout the project</a
         >
         <p class="text">
@@ -126,7 +136,10 @@
           the enjoyment it brought to the community.
         </p>
         <h2>Blackfoot (Siksiká) Language Learner</h2>
-        <a class="textlink" href="https://github.com/Hooopla/Blackfoot-Learner"
+        <a
+          class="textlink"
+          href="https://github.com/Hooopla/Blackfoot-Learner"
+          target="_blank"
           >Checkout the project</a
         >
         <p class="text">
@@ -176,7 +189,7 @@
             title="View my GitHub Profile"
             target="_blank"
             ><img
-              src="imgs/GitHub.png"
+              src="imgs/Github.png"
               clas="block-img"
               alt="Logo of Github"
               width="200px"
@@ -186,7 +199,7 @@
             title="View my Youtube Channel"
             target="_blank"
             ><img
-              src="imgs/YouTube2.png"
+              src="imgs/Youtube.png"
               class="block-img"
               alt="Logo of YouTube"
               width="190px"
@@ -216,9 +229,19 @@
           insights on your upcoming project or have seen my portfolio and want
           to connect, feel free to reach out I’d love to hear from you!
         </p>
-        <a href="mailto:johngabrielbello@outlook.com" class="contact-me button"
+        <a href="mailto:johngabrielbello@outlook.com" class="contact-me"
           >Contact Me</a
         >
+      </div>
+      <div class="block-header last">
+        <img
+          src="/imgs/scrollbackup.png"
+          width="100px"
+          alt="Image of an arrow pointing upwards"
+          id="scrollToTop"
+          onclick="scrollToTop()"
+        />
+        <p class="alt-text">Go back to the top!</p>
       </div>
     </main>
   </body>
